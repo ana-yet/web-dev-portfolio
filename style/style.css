@@ -1,0 +1,256 @@
+.open-sans-normal {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/* header */
+.header {
+  background-image: url("/images/developer.png"), url("/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+/* shared style  */
+.secondary-bg {
+  background-color: #fff8f3;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.dark-2 {
+  color: #474747;
+}
+.dark-3 {
+  color: #757575;
+}
+.text-center {
+  text-align: center;
+  /* background-color: red; */
+}
+.btn-primary {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #fd6e0a;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  width: 150px;
+  height: 64px;
+}
+.section-title {
+  font-size: 40px;
+  font-weight: bolder;
+  color: #181818;
+}
+.section-description {
+  font-size: 22px;
+  color: #757575;
+}
+
+/* nav styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+  font-size: 54px;
+}
+.nav-title {
+  font-weight: 1080;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 51px;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 35px;
+}
+
+/* banner style */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+
+.banner-content {
+  max-width: 702px;
+  margin-top: 226px;
+}
+
+.banner-greetings {
+  font-size: 54px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+.banner-title {
+  font-weight: bold;
+  font-size: 102px;
+  margin-bottom: 29px;
+}
+.banner-description {
+  font-size: 21px;
+  margin-bottom: 30px;
+}
+
+.banner-profile-pic {
+  width: 580px;
+  margin-top: 55px;
+}
+.btn-contract {
+  color: #fd6e0a;
+  font-weight: bold;
+  background-color: #fd6f0a00;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid #fd6e0a;
+  width: 150px;
+  height: 64px;
+}
+
+.btn-pad {
+  margin: 0 15px 0 30px;
+}
+
+/* main section */
+main {
+  max-width: 1368px;
+  margin: 0 auto;
+}
+/* about style */
+.about {
+  border-radius: 5px;
+  padding: 130px 150px;
+  text-align: center;
+  margin-top: 130px;
+}
+.section-title {
+  font-size: 42px;
+  margin-bottom: 36px;
+}
+.about-items {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 36px;
+}
+
+.item-description {
+  font-weight: 500;
+  margin-top: 8px;
+}
+/* skill section */
+.skills {
+  height: 714px;
+  margin: 156px auto;
+  /* background-color: red; */
+}
+.skills-container {
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+}
+
+.skill {
+  padding: 39px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 20px #999696;
+}
+.skill-title {
+  font-size: 24px;
+  margin: 39px 0 22px;
+  opacity: 89%;
+}
+.skill_description {
+  color: #757575;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* Resume Section Styles */
+.resume-container {
+  display: flex;
+  gap: 28px;
+  margin-top: 135px;
+  margin-bottom: 60px;
+}
+/* .resume-column {
+} */
+.experience {
+  padding-right: 56px;
+}
+
+.resume-column-title {
+  font-size: 36px;
+}
+.experience-title {
+  font-size: 30px;
+  margin-top: 36px;
+  margin-bottom: 12px;
+}
+.experience-sub-title {
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+.experience-description {
+  font-size: 19px;
+  margin-bottom: 36px;
+}
+
+/* Footer Session Styles */
+footer {
+  margin-top: 30px;
+  padding: 156px;
+  display: flex;
+  justify-content: center;
+
+  /* gap: 100px; */
+}
+.footer-column {
+  display: block;
+  display: 50%;
+
+  /* overflow: auto; */
+}
+footer input[type="text"],
+footer input[type="email"] {
+  height: 25px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  padding: 22px 0;
+  padding-left: 30px;
+  margin-bottom: 28px;
+  border: none;
+}
+footer textarea {
+  height: 150px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  padding: 22px 0 22px 34px;
+  margin-bottom: 20px;
+  border: none;
+}
+footer a {
+  margin-top: 30px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+footer p {
+  padding-right: 100px;
+  font-size: 20px;
+}
