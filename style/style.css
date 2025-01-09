@@ -35,11 +35,19 @@
   color: #ffffff;
   font-weight: bold;
   background-color: #fd6e0a;
-  font-size: 20px;
+  font-size: 15px;
   border-radius: 5px;
   border: none;
   width: 150px;
   height: 64px;
+}
+.btn-primary:hover {
+  color: #fd6e0a;
+  font-weight: bold;
+  background-color: #fd6f0a00;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px solid #fd6e0a;
 }
 .section-title {
   font-size: 40px;
